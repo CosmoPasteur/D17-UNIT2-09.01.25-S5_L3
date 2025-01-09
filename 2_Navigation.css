@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  /* background-color: rebeccapurple; */
+}
+
+.nav {
+  max-width: 850px;
+  background-color: #fbf7e3; /*Colore di sfondo della barra navigazione*/
+  border-radius: 60px;
+  padding-block: 15px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around; /*Mette gli elementi con spazio uguale */
+  align-items: center; /* Allinea gli elementi verticalmente al centro */
+  list-style-type: none;
+}
+
+/* Elementi della lista */
+.nav ul li {
+  background-color: #f3df85;
+  color: #612406;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.nav ul .img2 {
+  padding-inline: 20px;
+  padding-block: 25px;
+  border-radius: 60px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo nel tasto */
+.img2 img {
+  width: 50px; /*Larghezza immagine*/
+  height: auto; /* Mantiene il rapporto di aspetto */
+  margin-right: 10px; /* Spazio tra l'immagine e il testo */
+}
+
+.nav li:hover {
+  background-color: #f3df85; /* Cambia colore al passaggio del mouse */
+  border-radius: 5px;
+  cursor: pointer;
+}

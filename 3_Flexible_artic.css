@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #ffffff;
+    /* background-color: rebeccapurple; */
+  }
+
+  .container {
+    background-color: #fbf7e3;
+    /* background-color: red; */
+    margin: 30px;
+    border-radius: 25px;
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: #612406;
+  }
+
+  .card2 img {
+    margin-right: 10px;
+  }
+}
