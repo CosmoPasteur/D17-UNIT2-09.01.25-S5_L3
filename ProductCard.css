@@ -3,3 +3,58 @@
 *::after {
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  gap: 15px;
+}
+.card {
+  background-color: #fbf7e3;
+  border-radius: 50px;
+  overflow: hidden;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  padding-block: 30px;
+  color: #612406;
+  font-size: x-large;
+}
+
+.card img {
+  width: 100%;
+}
+
+.content h2 {
+  margin: 0;
+  /* color: #612406; */
+}
+
+.content p {
+  margin: 0;
+}
+
+.content span {
+  font-size: larger;
+}
+
+.button {
+  background-color: #f3df85;
+  color: #612406;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+  padding: 14px 82px;
+}
