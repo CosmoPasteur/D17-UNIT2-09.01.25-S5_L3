@@ -3,33 +3,45 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+}
 
 /* ASPETTO MOBILE */
 @media screen and (min-width: 320px) {
   body {
     background-color: #ffffff;
-    /* background-color: rebeccapurple; */
   }
+
   .container {
+    width: 100%;
     background-color: #fbf7e3;
-    /* background-color: red; */
+    border-radius: 25px;
   }
 
   .card2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin: 15px;
+  }
+
+  .card2 img {
+    margin-bottom: 15px;
   }
 }
 
 /* ASPETTO DESKTOP */
 @media screen and (min-width: 1200px) {
   .container {
-    margin: 30px;
-    border-radius: 25px;
+    background-color: #fbf7e3;
+    border-radius: 30px;
+    padding: 2rem;
+    /* margin: 30px; */
+    display: flex;
+    gap: 2rem;
   }
 
   .card2 {
-    display: flex;
     justify-content: space-around;
     padding: 20px;
     color: #612406;
